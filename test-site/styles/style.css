@@ -1,0 +1,49 @@
+/* p {
+  color: red;
+} */
+
+html {
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+html {
+  background-color: #00539f;
+}
+
+/* Styling the body */
+body {
+  width: 600px;
+  margin: 0px auto;
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid rgb(228, 122, 23);
+}
+
+/* 定位并设置样式：对h1 */
+h1 {
+  margin: 0 aut;
+  padding: 20px 0;
+  color: #00539f;
+  /* text-shadow: -3px 3px 7px black; */
+  /* 指定三个阴影 */
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em yellow;
+}
+
+/* 图片居中 */
+img {
+  display: block;
+  margin: 0 auto;
+}
